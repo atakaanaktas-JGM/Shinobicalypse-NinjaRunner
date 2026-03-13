@@ -6,7 +6,7 @@ The project is centered around smooth lane-based movement, obstacle interaction,
 
 ## Project Status
 
-In Development
+In Development-/Images file contains development and gameplay images
 
 ## Core Gameplay Focus
 
