@@ -6,6 +6,8 @@ The project focuses on scalable gameplay systems, responsive game feel, and AI-d
 
 ---
 
+[![ShinobiCalypse Gameplay](https://img.youtube.com/vi/U0l76m79inw/0.jpg)](https://www.youtube.com/shorts/U0l76m79inw)
+
 ## 🎮 Core Gameplay Systems
 
 - Lane-based movement system optimized for mobile input responsiveness  
