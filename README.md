@@ -2,61 +2,75 @@
 
 Shinobicalypse: Ninja Runner is a fast-paced mobile endless runner developed in Unity and C#.
 
-The project focuses on responsive gameplay feel, systemic AI behavior, and juice-driven feedback systems to create a polished and engaging runner experience.
+The project focuses on scalable gameplay systems, responsive game feel, and AI-driven mechanics designed for mobile performance.
 
 ---
 
-## 🎮 Core Gameplay
+## 🎮 Core Gameplay Systems
 
-- Lane-based movement system optimized for mobile controls  
-- Endless progression loop with increasing difficulty  
-- Obstacle interaction and collision-based gameplay  
-- Responsive player input with tight movement control  
+- Lane-based movement system optimized for mobile input responsiveness  
+- Endless progression loop with dynamic difficulty scaling  
+- Obstacle interaction and collision-based gameplay mechanics  
+- Tight and responsive player control system  
 
 ---
 
-## ⚙️ Key Systems
+## ⚙️ Gameplay Architecture
 
 ### 🧠 AI State Machine System
-Enemy and obstacle behaviors are driven by a modular state machine architecture, allowing scalable and extensible gameplay logic.
+Enemy and obstacle behaviors are implemented using a modular state machine architecture designed for scalability and reusability.
 
-States include:
-- Idle / Spawn
-- Active Movement / Behavior
+Core states:
+- Spawn / Initialization
+- Active Behavior State
 - Interaction / Collision Response
+- Deactivation / Reset (for pooling compatibility)
+
+This system allows easy extension of enemy and obstacle logic without modifying core gameplay flow.
 
 ---
 
-### 🎯 Juice & Game Feel System
-The project emphasizes game feel through multiple feedback layers:
+### 🎯 Game Feel & Feedback System (Juice System)
+The game emphasizes “juice-driven” feedback to improve player experience:
 
-- Dynamic camera adjustments during speed changes  
-- Speed-up visual effects with particle systems  
-- Screen feedback and motion reinforcement during gameplay transitions  
+- Dynamic camera response based on speed and gameplay state  
+- Particle-based speed and impact feedback  
+- Motion reinforcement during transitions (acceleration / deceleration)  
+- Visual synchronization between gameplay events and feedback systems  
 
 ---
 
-### 📉 Death & Feedback System
-Player death is enhanced using a custom mathematical curve system:
+### 📉 Death & Impact System
+Player death is designed as a feedback-driven system rather than an instant state change:
 
-- Smooth deceleration after impact  
-- Visually impactful fall / crash sequence  
-- Delayed game-over transition for stronger feedback timing  
+- Curved deceleration system after collision  
+- Delayed transition to game-over state for impact clarity  
+- Enhanced visual feedback during fall / crash sequence  
+- Controlled time pacing for better emotional response  
+
+---
+
+## 🧠 Technical Focus
+
+- State Machine Architecture (scalable AI system design)  
+- Object Pooling (performance optimization for mobile runtime)  
+- Game Feel Engineering (camera, VFX, timing systems)  
+- Mobile-first optimization for high responsiveness  
 
 ---
 
 ## 🛠️ Technologies
 
-- Unity
-- C#
-- State Machine Architecture
-- Custom Game Feel Systems
+- Unity  
+- C#  
+- State Machine Design Pattern  
+- Object Pooling System  
+- Custom Game Feel Systems  
 
 ---
 
 ## 📌 Project Status
 
-In Development  
-This project is actively being improved with additional systems, polish, and optimization.
+**In Development**
 
-Gameplay screenshots and development visuals are available in the `/Images` folder.
+Actively being improved with additional systems, optimization, and gameplay polish.
